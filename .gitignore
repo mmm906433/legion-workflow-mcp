@@ -1,0 +1,16 @@
+# 运行时产物（brigade 本地运行生成，勿入库）
+brigade/runs/
+brigade/.redis/
+workflow-mcp/.mcp-runs/
+
+# 依赖与构建
+node_modules/
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# OS 垃圾
+Thumbs.db
+.DS_Store
+Desktop.ini

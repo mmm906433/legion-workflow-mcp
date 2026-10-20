@@ -1,0 +1,16 @@
+{
+  "name": "legion-workflow-mcp",
+  "version": "1.1.0",
+  "description": "Legion Workflow MCP — 多子代理军团工作流（DAG 拆解 → 影子目录隔离实现 → 机器验收 → 审查闸门），为 opencode 客户端设计的 local MCP 服务器",
+  "main": "workflow-mcp/server.js",
+  "scripts": {
+    "start": "node workflow-mcp/server.js",
+    "test": "node brigade/cp/danger-matrix-test.js",
+    "test:danger": "node brigade/cp/danger-matrix-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true,
+  "license": "MIT"
+}
